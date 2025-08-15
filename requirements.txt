@@ -1,0 +1,4 @@
+gradio>=4.0,<5
+requests>=2.31
+pydantic>=2,<3
+python-dotenv>=1.0
