@@ -152,12 +152,6 @@ ollama list
 ```
 
 ------
-
-
-
-
-------
-
 ## ⚡ 一键运行脚本（Windows）
 
 如果不想手动输入命令，可以直接运行：
@@ -175,3 +169,4 @@ powershell -ExecutionPolicy Bypass -File scripts\run_windows.ps1
 - 多模型切换
 
 - 模型自动下载检测
+
