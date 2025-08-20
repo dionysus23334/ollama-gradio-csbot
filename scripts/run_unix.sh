@@ -5,4 +5,4 @@ source .venv/bin/activate
 python -m pip install -U pip wheel
 pip install -r requirements.txt
 [ -f ".env" ] || cp .env.example .env
-python app_gradio.py
+python app.py
