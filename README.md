@@ -89,7 +89,7 @@ TEMPERATURE=0.7
 ### 6️⃣ 运行项目
 
 ```
-python app_gradio.py
+python app.py
 ```
 
 运行后浏览器会自动打开：
@@ -116,7 +116,7 @@ http://127.0.0.1:5000
 
 - 可能是代理或安全软件劫持了 localhost
 
-- 解决方法：在 `app_gradio.py` 中把
+- 解决方法：在 `app.py` 中把
 
   ```
   server_name="0.0.0.0"
@@ -153,23 +153,8 @@ ollama list
 
 ------
 
-## 📂 项目结构
 
-```
-ollama-gradio-csbot/
-├── app_gradio.py         # 主程序入口
-├── requirements.txt      # Python 依赖
-├── prompt.txt            # 系统提示词文件
-├── dialogues.json        # 历史对话记录
-├── .env.example          # 环境变量示例文件
-└── scripts/              # 脚本工具
-```
 
-------
-
-## 📜 许可证
-
-本项目采用 **MIT License**，允许商用、修改、分发，但需保留原作者版权声明，且不承担任何使用风险的法律责任。
 
 ------
 
@@ -188,4 +173,5 @@ powershell -ExecutionPolicy Bypass -File scripts\run_windows.ps1
 - 知识库接入（RAG）
 - FAQ 智能匹配
 - 多模型切换
+
 - 模型自动下载检测
