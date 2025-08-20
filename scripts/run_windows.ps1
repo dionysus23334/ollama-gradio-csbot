@@ -19,4 +19,5 @@ if (Test-Path ".env") {
 }
 
 # Run the app
-python app_gradio.py
+python app.py
+
